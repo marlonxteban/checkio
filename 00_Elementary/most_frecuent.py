@@ -15,7 +15,7 @@ most_frequent([
 
 most_frequent(['a', 'a', 'bi', 'bi', 'bi']) == 'bi'
 """
-def most_frequent(datat):
+def most_frequent(data):
     temporal = list(set(data))
     frecuencia= dict.fromkeys(temporal)
     for elemento in frecuencia:
